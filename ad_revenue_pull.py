@@ -2,14 +2,6 @@ import requests
 import psycopg2
 import time
 
-conn = psycopg2.connect(
-    host="localhost",
-    port=5432,
-    database="eves_apple",
-    user="postgres",
-    password="SashaKarina2!"  # change this
-)
-cur = conn.cursor()
 
 HEADERS = {"User-Agent": "evesapple research@evesapple.com"}
 
