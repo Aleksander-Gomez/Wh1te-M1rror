@@ -3,9 +3,7 @@ import psycopg2
 import time
 
 # --- DB CONNECTION ---
-  # change this
-)
-cur = conn.cursor()
+
 
 # --- TARGET COMPANIES (name, ticker, CIK) ---
 companies = [
