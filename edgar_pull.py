@@ -3,12 +3,7 @@ import psycopg2
 import time
 
 # --- DB CONNECTION ---
-conn = psycopg2.connect(
-    host="localhost",
-    port=5432,
-    database="eves_apple",
-    user="postgres",
-    password="SashaKarina2!"  # change this
+  # change this
 )
 cur = conn.cursor()
 
