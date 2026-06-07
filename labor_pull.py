@@ -4,14 +4,6 @@ import time
 from datetime import datetime
 
 # --- DB CONNECTION ---
-conn = psycopg2.connect(
-    host="localhost",
-    port=5432,
-    database="eves_apple",
-    user="postgres",
-    password="SashaKarina2!"
-)
-cur = conn.cursor()
 
 # --- CREATE TABLE IF NOT EXISTS ---
 cur.execute('''
